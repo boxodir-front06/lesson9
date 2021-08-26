@@ -1,0 +1,36 @@
+.box {
+  height: 450px;
+  text-align: center;
+}
+
+.box i {
+  padding-top: 50px;
+}
+
+.box h1 {
+  padding-top: 20px;
+}
+
+.box P {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.box1 {
+  height: 450px;
+  text-align: center;
+}
+
+.box1 i {
+  padding-top: 50px;
+}
+
+.box1 h1 {
+  padding-top: 20px;
+}
+
+.box1 P {
+  font-size: 20px;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */
