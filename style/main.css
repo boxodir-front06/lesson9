@@ -1,3 +1,6 @@
+.container {
+  height: 3000px;
+}
 
 .box1 {
   height: 450px;
@@ -17,4 +20,100 @@
   padding-top: 20px;
 }
 
+.bbb {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: blue;
+  display: inline-block;
+  color: white;
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+@-webkit-keyframes example {
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: orangered;
+  }
+}
+
+@keyframes example {
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: orangered;
+  }
+}
+
+.money {
+  width: 100%;
+  color: black;
+  position: absolute;
+  -webkit-box-shadow: 0 0 10px #3a383a;
+          box-shadow: 0 0 10px #3a383a;
+  border-radius: 6px;
+  top: 100%;
+  left: 5%;
+  display: none;
+}
+
+.money li {
+  margin-right: 500px;
+  display: block;
+  font-size: 20px;
+}
+
+.money a {
+  text-decoration: none;
+}
+
+.bbb:hover .money {
+  display: block;
+}
+
+.money1:hover {
+  font-size: 30px;
+  width: 100%;
+}
+
+a:hover {
+  color: red;
+}
+
+.money2:hover {
+  font-size: 30px;
+  width: 100%;
+}
+
+.money3:hover {
+  font-size: 30px;
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
